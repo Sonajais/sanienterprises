@@ -1,0 +1,161 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.main{
+  padding-top: 200px;
+}
+.heading {
+  z-index: 1;
+}
+@media screen and (min-width: 601px) {
+  .heading {
+    font-size: 85px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    font-size: 70px;
+  }
+}
+.heading1 {
+  z-index: 1;
+}
+@media screen and (min-width: 601px) {
+  .heading1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heading1 {
+    font-size: 40px;
+  }
+}
+.heading2 {
+  font-weight: bold;
+  z-index: 1;
+}
+@media screen and (min-width: 601px) {
+  .heading2 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heading2 {
+    font-size: 30px;
+  }
+}
+h5 {
+  z-index: 1;
+}
+.bttn{
+    background-color: transparent;
+    border-radius: 50px;
+    border:2px solid white;
+    color:white;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bttn1{
+    background-color: transparent;
+    border-radius: 50px;
+    border:2px solid rgb(197, 6, 6);
+    color:rgb(197, 6, 6);
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bttn1:hover{
+    border:2px solid  brown;
+    color: brown;
+}
+
+.accordion-button.no-hover-bg:hover,
+.accordion-button.no-hover-bg:not(.collapsed):hover,
+.accordion-button.no-hover-bg:not(.collapsed) {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.cards{
+  background-color: #27d383;
+  border-radius: 20px;
+}
+.cards1{
+  background-color: white;
+  border-radius: 20px;
+}
+  .icon-circle {
+    background: white;
+    padding: 20px;
+    border-radius: 50%;
+    display: flex;             /* use flexbox */
+    align-items: center;       /* vertically center icon */
+    justify-content: center;   /* horizontally center icon */
+    width: 64px;               /* fixed width */
+    height: 64px;              /* fixed height to make circle */
+    box-sizing: border-box;    /* include padding inside width/height */
+    cursor: pointer;           /* pointer cursor on hover */
+    transition: background-color 0.3s ease;
+  }
+    .icon-circle i {
+    color: #000;               /* icon color */
+    font-size: 24px;           /* icon size */
+  }
+  .icon-circle:hover {
+    background: #eee;          /* subtle hover effect */
+  }
+  .bttn2{
+    background-color: transparent;
+    border-radius: 50px;
+ background-color: rgb(195, 194, 194);
+ border:none;
+ color:rgb(97, 95, 95);
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    width:auto;
+}
+.bttn2:hover{
+  background-color: rgb(226, 221, 221);
+}
+  .icon1-circle {
+    background: white;
+    border-radius: 50%;
+    display: flex;             /* use flexbox */
+    align-items: center;       /* vertically center icon */
+    justify-content: center;   /* horizontally center icon */
+    width: 74px;               /* fixed width */
+    height: 74px;              /* fixed height to make circle */
+    box-sizing: border-box;    /* include padding inside width/height */
+    cursor: pointer;           /* pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    overflow: hidden;         /* hide overflow */
+  }
+  .icon1-circle img {
+     width: 100%;
+  height: 100%;
+  object-fit: cover;          /* Fill the circle */
+  border-radius: 50%; 
+  display: block;           /* icon size */
+  }
+
+ .green-bullets li {
+  font-size: 1.1rem; /* increase text size */
+  margin-bottom: 1rem;     /* Add space between bullet points */
+}
+
+.green-bullets li::marker {
+  color: rgb(26, 212, 26); /* only bullet color changes */
+}
