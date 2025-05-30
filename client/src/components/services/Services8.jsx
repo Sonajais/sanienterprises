@@ -91,7 +91,7 @@ const Services8 = () => {
                             </h5>
                         </div>
                         <div className="col-12 col-md-8 mb-3">
-                            <div className="cards" style={{backgroundColor: "#fff", padding: "20px", padding: "30px"}}>
+                            <div className="cards" style={{backgroundColor: "#fff", padding: "30px"}}>
                                 <ul className="green-bullets">
                                     <li>The academic journey of a PhD candidate is not without its share of stress and unforeseen challenges. Our research assistants act as a buffer against these pressures, providing a source of relief and a strategic approach to handling unexpected hurdles. Whether it's a sudden shift in research focus or challenges in data analysis, our team is what makes us the best PhD assistance company in India and they are adept at navigating through uncertainties providing you with expert PhD research solutions ensuring that the research journey remains on track and stress-free.
                                     </li>

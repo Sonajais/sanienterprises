@@ -42,7 +42,7 @@ const Services9 = () => {
                         </div>
                     </div>
                     <div className="col-12 col-md-8 mb-3">
-                        <div className="cards" style={{ backgroundColor: "#fff", padding: "20px", padding: "30px" }}>
+                        <div className="cards" style={{ backgroundColor: "#fff", padding: "30px" }}>
                             <ol className="green-bullets" type="numbered-list">
 
                                 <li> Highlighting your strengths and weaknesses.
