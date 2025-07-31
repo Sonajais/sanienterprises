@@ -26,7 +26,7 @@ const Services9 = () => {
                         </h1>
                     </div>
                     <div className="col-12 col-md-8 mb-3">
-                        <div className="cards" style={{ backgroundColor: "#fff", padding: "20px", padding: "30px" }}>
+                        <div className="cards" style={{ backgroundColor: "#fff", padding: "30px"}}>
                             <ul className="green-bullets">
 
                                 <li> A succinct overview of your professional aspirations and how this PhD program aligns with those goals.</li>
